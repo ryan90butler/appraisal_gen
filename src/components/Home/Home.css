@@ -1,0 +1,13 @@
+.Home-main {
+  height: 100vh;
+  width: 100%;
+}
+
+.Home-title {
+  padding-top: 5%;
+  text-align: center;
+}
+
+h1 {
+   font-size: 38px;
+}
