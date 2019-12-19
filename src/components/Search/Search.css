@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+form {
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+}
+.Search-main {
+  padding-top: 4px;
+}
+
+.form-group {
+  padding-top: 6px;
+  text-align: left;
+}
