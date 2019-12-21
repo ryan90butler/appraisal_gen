@@ -3,17 +3,27 @@ body {
 }
 form {
   display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
-	align-content: space-between;
+  flex-direction: column;
+  background: lightgray;
+  justify-content: center;
+  padding: 10px;
+  width: 250px;
+  border: 1px black solid;
+  align-items: center;
+  border-radius: 15px;
 }
 .Search-main {
-  padding-top: 4px;
+  padding-bottom: 4px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .form-group {
   padding-top: 6px;
   text-align: left;
+}
+
+input.form-control {
+  width: 175px;
 }
