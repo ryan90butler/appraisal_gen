@@ -7,7 +7,6 @@ class Header extends Component {
       <div className="Header">
       <ul className="flex-box">
         <li><a href="/">Home</a></li>
-        <li><a href="About">About</a></li>
         <li><a href="FAQ">FAQ</a></li>
         <li><a href="Contact">Contact</a></li>
       </ul>
