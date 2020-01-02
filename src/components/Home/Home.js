@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../Header/Header';
 import './Home.css';
-import Search from '../Search/Search';
+import Form from '../Form/Form';
 
 class Home extends Component {
 
@@ -11,10 +11,10 @@ class Home extends Component {
       <Header/>
       <div className="Home-title">
        <h1>Free Utah Basement Quote</h1>
-       <p>Thinking of finishing your basement? Not sure where to go, how long it will take, or how much to budget?</p>
-       <p>Our database of qualified/licensed contracts provide you with accurate, timely quotes to finish your dream basement.</p>
+       <p>Thinking of finishing your basement? Not sure who to contact, how long it will take, or how much to budget?</p>
+       <p>Our database of qualified/licensed contracts provide you with accurate, timely quotes to finish your basement.</p>
       </div>
-      <Search/>
+      <Form/>
     </div>
   );
 }

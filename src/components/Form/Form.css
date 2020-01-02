@@ -27,3 +27,6 @@ form {
 input.form-control {
   width: 175px;
 }
+button.btn.btn-primary {
+    margin-top: 10px;
+}
